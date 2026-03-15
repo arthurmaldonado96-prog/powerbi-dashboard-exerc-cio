@@ -4,7 +4,7 @@ Exercício - dasboard com dados de salários e faturamento com contratos
 
 ##  Visão Geral
 
-Este projeto apresenta um dashboard desenvolvido no Power BI como resolução de um exercício da plataforma Hashtag.  
+Este projeto apresenta um dashboard desenvolvido no Power BI como resolução de um exercício do curso da plataforma Hashtag Treinamentos.  
 O objetivo é demonstrar habilidades em modelagem de dados, análise de métricas e visualização de dados aplicadas a um cenário corporativo.
 
 O dashboard permite acompanhar indicadores importantes como salários, faturamento e quantidade de contratos fechados por área ao longo do tempo.
