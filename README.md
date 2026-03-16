@@ -54,7 +54,7 @@ O modelo foi desenvolvido seguindo o padrão **Star Schema**, muito utilizado em
 
 ### Medidas
 - Faturamento Total = SUMX(BaseServicosPrestados, BaseServicosPrestados[Idade] * RELATED(CadastroClientes[Valor Contrato Anual]))
-- Qtd de Funcionários = COUNT(CadastroFuncionarios[ID Funcionário])
+- Qtd de Funcionários = COUNTROWS(CadastroFuncionarios)
 - Qtd de Contratos = COUNTA(BaseServicosPrestados[ID Cliente])
 - Média dos valores dos contratos = AVERAGE(CadastroClientes[Valor Contrato Anual])
 - Soma de salários = SUM(CadastroFuncionarios[Salário Total])
